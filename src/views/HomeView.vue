@@ -16,13 +16,13 @@
         v-if="mapboxSearchResults"
       >
         <p class="py-2" v-if="searchError">
-          Sorry, something went wrong, please try again.
+          Er is iets fout gegaan. Probeer opnieuw.
         </p>
         <p
           class="py-2"
           v-if="!searchError && mapboxSearchResults.length === 0"
         >
-          No results match your query, try a different term.
+          Geen resultaten gevonden. Probeer een andere stad.
         </p>
         <template v-else>
           <li
