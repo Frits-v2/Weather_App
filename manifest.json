@@ -3,7 +3,7 @@
     "short_name": "Weer NL",
     "description": "Weer NL is de app voor het weer in nederland en omstreken",
     "start_url": "/",
-    "display": "standalone",
+    "display-override": "standalone",
     "background_color": "#00668A",
     "theme_color": "#004E71",
     "icons": [
